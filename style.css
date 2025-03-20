@@ -6,8 +6,81 @@ h1
     font-weight: bold;
 }
 
-ul 
+ul
 {
     color: green;
     font-size: 32px;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+
+    /* Ermöglicht die Verwendung für eine flexibles Layout im Body bereich */
+    display:flex;
+
+    /* Spezifiziert ein Collum Layout. Andernfalls ist flow layout (java) vor eingestellt. */
+    flex-direction: column;
+    
+    /* Zentriert alles in der Mitter der Seite */
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #F0FFFF;
+}
+
+section.section_titel
+{
+    background-color: rgb(237, 216, 246);
+
+    /* 20 Pixel Abstand zur Oberen Kante der Website */
+    margin-top: 20px;
+
+    /* Abstand der Grenzen der Section zum Zentrum definieren.
+    Sorgt dafür, dass die Section aufgeblasen wird und so als 
+    rechteckiger Kasten erscheint. Verwendung der Prozentwerte bezieht sich
+    auf x prozenz der breite bzw höhe des übergeordneten containers. */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+section.section_ferienwohnungen
+{
+    /* Jede Ferienwohnung in einen Rahmen packen. Und bei dem Rahmen 
+    die Ecken abrunden.*/
+    border: 2px solid #212023;
+    border-radius: 5px;
+
+
+    /* Abstand der Section zum äußeren Container definieren */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: rgb(237, 216, 246);
+
+    /* Abstand der Grenzen der Section zum Zentrum definieren.
+    Sorgt dafür, dass die Section aufgeblasen wird und so als 
+    rechteckiger Kasten erscheint. */
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 600px;
+    padding-right: 600px;
+
+
+
+    /* Achtung ich kann mir nicht vorstellen, dass die Verwendung von festen Pixelgrößen hier sinnvoll für 
+    ein dynamisches Layout ist. Das sollte zu prozent werten geändert werden, falls möglich.  */
+    
+
+    /*
+        Wenn in einer html datei eine section mehrfach verwendet werden soll, aber trotzdem unterschiedliche
+        formatierungen existieren kann keien id verwendet werden um diese zu unterscheiden. Aus dem Grund, da
+        mehrfachverwendung der gleichen id nicht gewollt ist in html.
+    */
 }
