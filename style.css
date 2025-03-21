@@ -57,7 +57,10 @@ section.section_titel {
     padding-right: 15%;
 }
 
-section.section_ferienwohnungen {
+section.section_ferienwohnungen 
+{
+    background-color: paleturquoise;
+
     /* Jede Ferienwohnung in einen Rahmen packen. Und bei dem Rahmen 
     die Ecken abrunden.*/
     border: 2px solid #6e49b8;
@@ -75,11 +78,14 @@ section.section_ferienwohnungen {
     /* Abstand der Grenzen der Section zum Zentrum definieren.
     Sorgt dafür, dass die Section aufgeblasen wird und so als 
     rechteckiger Kasten erscheint. */
-    padding-top: 100px;
-    padding-bottom: 200px;
-    padding-left: 600px;
-    padding-right: 600px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
 
+    /* Eine bestimmte Breite des Elements soll nicht überschritten werden.
+    So wird sichergestellt, dass jedes Element gleich groß ist. */
+    max-width: 400px;
 
 
     /* Achtung ich kann mir nicht vorstellen, dass die Verwendung von festen Pixelgrößen hier sinnvoll für 
@@ -94,12 +100,16 @@ section.section_ferienwohnungen {
 }
 
 
-section.section_foot {
+section.section_foot 
+{
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
+}
 
-
-
+/* Eigenschaften beim Überfahren mit der Maus */
+button:hover 
+{
+    background-color: #FF0000;
 }
