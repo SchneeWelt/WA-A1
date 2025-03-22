@@ -1,16 +1,72 @@
-h1 {
+
+/* Es währe cool, würde man alles zur Nav Bar in ein separates css dokument schreiben. */
+
+nav
+{
+    height: 90px;
+    width: 100%;
+
+    background-color: rgb(58, 158, 216);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 144);
+
+    position: relative;
+}
+
+/* Betrifft alle Listenelemente, die in der Nav Bar sind. */
+nav ul
+{
+    float: right;
+}
+
+/* Alle Listenelemente in der Nav Bar nacheinander anordnen, ihnen einen Abstand von 30px nach oben hin geben und nach rechts einen Abstand von 40px definieren. */
+nav li
+{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#FF0000;
+}
+
+/* Position des Intros verändern */
+#nav_intro
+{
+    /* Positionnierung aufheben. */
+    position: absolute;
+    
+    /* Position neu setzen */
+    left: 20px;
+    margin-top: 15px; /* Optional: vertikaler Abstand */
+}
+
+/* Immer wenn a in li ist und li in nav ist, setze: */
+nav li a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#FF0000;
+    text-decoration: none;
+}
+
+
+h1 
+{
     color: black;
     text-align: left;
     font-size: 40px;
     font-weight: bold;
 }
 
-ul {
+/* ul
+{
     color: green;
     font-size: 32px;
-}
+} */
 
-body {
+body 
+{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     /* Ermöglicht die Verwendung für eine flexibles Layout im Body bereich */
@@ -29,8 +85,8 @@ body {
 }
 
 
-button {
-
+button 
+{
     margin-top: 12px;
     padding: 0.6em 1.5em;
     background-color: cornflowerblue;
@@ -39,9 +95,13 @@ button {
     border: none;
     border-radius: 100px;
 
+    /* Dieser Befehl sorgt dafür, dass der Button seine Breite behält. Egal ob sich der Text in
+    Ihm ändert. */
+    min-width: 400px;
 }
 
-section.section_titel {
+section.section_titel 
+{
     /* background-color: rgb(237, 216, 246); */
 
     /* 20 Pixel Abstand zur Oberen Kante der Website */
@@ -99,14 +159,17 @@ section.section_ferienwohnungen
     */
 }
 
-
-section.section_foot 
+footer
 {
-    margin-top: 15px;
+    /* Außenabstände von diesem Element zu seinen Nachbarelementen definieren. */
+    margin-top: 25px;
     margin-bottom: 15px;
+
+    /* Elemente in Footer aufblasen. So benötigen Sie mehr Platz als sie eigentlich bräuchten. Das entzerrt die Website  */
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
 /* Eigenschaften beim Überfahren mit der Maus */
 button:hover 
