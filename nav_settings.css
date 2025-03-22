@@ -1,0 +1,54 @@
+nav
+{
+    height: 90px;
+    width: 100%;
+
+    background-color: rgb(58, 158, 216);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 144);
+
+    position: relative;
+}
+
+/* Betrifft alle Listenelemente, die in der Nav Bar sind. */
+nav ul
+{
+    float: right;
+}
+
+/* Alle Listenelemente in der Nav Bar nacheinander anordnen, ihnen einen Abstand von 30px nach oben hin geben und nach rechts einen Abstand von 40px definieren. */
+nav li
+{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#FF0000;
+}
+
+/* Position des Intros verändern */
+#nav_intro, #go_back
+{
+    /* Positionnierung aufheben. */
+    position: absolute;
+    
+    /* Position neu setzen */
+    left: 20px;
+    margin-top: 15px; /* Optional: vertikaler Abstand */
+}
+
+/* Immer wenn a in li ist und li in nav ist, setze: */
+nav li a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#FF0000;
+    text-decoration: none;
+}
+
+/* Wenn die Maus über einem Anker Liegt, also einem Link. Dann soll der Text dazu unterstrichen sein. */
+a:hover
+{
+    text-decoration: underline;
+}
