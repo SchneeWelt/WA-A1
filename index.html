@@ -5,11 +5,17 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav_settings.css" />
+        <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="cache-control" content="no-cache">
     </head>
 
     <body>
+
+        <!-- JS Scripte Einbinden -->
+        <script type="text/javascript" src="button_notification.js"></script>
+
+
         <!-- Wir brauchen einen Header. Das ist Teil der Anforderung -->
         <header>
 
@@ -72,7 +78,7 @@
 
             <p>
 
-                <a href="ferienwohnung_1.html">
+                <a href="ferienwohnung_1.html?name_der_ferienwohnung=Ferienwohnung 1">
                     <button>Mehr über diese Ferienwohnung erfahren</button>
                 </a>
             </p>
@@ -115,7 +121,7 @@
 
             </p>
 
-            <a href="ferienwohnung_2.html">
+            <a href="ferienwohnung_2.html?name_der_ferienwohnung=Charaoke Bar 4">
                 <button>Mehr über diese Ferienwohnung erfahren</button>
             </a>
         </section>
@@ -157,7 +163,7 @@
                 />
             </p>
 
-            <a href="ferienwohnung_3.html">
+            <a href="ferienwohnung_3.html?name_der_ferienwohnung=Ferienwohnung 3">
                 <button>Mehr über diese Ferienwohnung erfahren</button>
 
             </a>
@@ -200,7 +206,7 @@
                 />
             </p>
 
-            <a href="ferienwohnung_4.html">
+            <a href="ferienwohnung_4.html?name_der_ferienwohnung=Ferienwohnung 4">
                 <button>Mehr über diese Ferienwohnung erfahren</button>
 
             </a>
@@ -236,21 +242,8 @@
                 />
             </p>
 
-            <a href="ferienwohnung_5.html">
+            <a href="ferienwohnung_5.html?name_der_ferienwohnung=Ferienwohnung 5">
                 <button onmouseover="changeButtonText()" onmouseleave="changeItBack()" id="button">Mehr über diese Ferienwohnung erfahren</button>
-
-                <script>
-                    function changeButtonText()
-                    {
-                        document.getElementById("button").innerHTML = "Tu's nicht";
-                    }
-
-                    function changeItBack()
-                    {
-                        document.getElementById("button").innerHTML = "Mehr über diese Ferienwohnung erfahren";
-                    }
-
-                </script>
             </a>
         </section>
 
