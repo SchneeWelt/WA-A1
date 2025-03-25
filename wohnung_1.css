@@ -1,0 +1,22 @@
+.left_container {
+    width: 40%;
+    /* Breite des Textblocks, anpassbar */
+    align-items: center;
+    /* Text linksbündig */
+    margin-left: 20px;
+    /* Abstand vom linken Rand */
+
+}
+
+/* Wie kann ich auf der Detailseite die Elemente nach links verschieben, da sich das "globale body" interferieren (danke Umut) mit dem left_container  */
+
+/* .wohnung_1_bilder {
+
+    width: 40%;
+    display: flexbox; 
+    align-items: center;
+    margin-left: 20px;
+
+
+
+} */
