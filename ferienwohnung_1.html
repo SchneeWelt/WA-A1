@@ -1,61 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
+    <!-- JS Scripte Einbinden -->
+    <script type="text/javascript" src="./js/dynamische_titel_erkennung.js"></script>
+
+
+    <head>
+        <title>Details zu Ferienwohnung 1</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav_settings.css" />
+        <link rel="stylesheet" href="wohnung_1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="cache-control" content="no-cache">
     </head>
 
     <body>
-
-          <!-- JS Scripte Einbinden -->
-          <script type="text/javascript" src="./js/dynamische_titel_erkennung.js"></script>
-
-        <head>
-            <title>Details zu Ferienwohnung 1</title>
-            <meta charset="UTF-8">
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="nav_settings.css" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="cache-control" content="no-cache">
-        </head>
         
-        <nav class="section_navigationsleiste">
 
-            <!-- Hier könnte man eine Navigationsleiste einbauen um zu Teilen der Website zu springen. -->
 
-            <ul>
-                <li id="go_back"> <a href="index.html"> Zurück zum Hauptmenü </a> </li>
-                <!-- Der Name wird über eine Parameterübergabe der anderen Website und mittels Auslesen unter Verwendung von JS automatisch eingefügt -->
-                <li id="wohnung_name">  </li>            
-            </ul>
+    <nav class="section_navigationsleiste">
 
-            <!-- Ich denke es wäre cool, könnte man bereits hier zu den 5 verschiedenen Ferienwohnungen springen. Dabei 
+        <!-- Hier könnte man eine Navigationsleiste einbauen um zu Teilen der Website zu springen. -->
+
+        <ul>
+            <li id="go_back"> <a href="index.html"> Zurück zum Hauptmenü </a> </li>
+            <!-- Der Name wird über eine Parameterübergabe der anderen Website und mittels Auslesen unter Verwendung von JS automatisch eingefügt -->
+            <li id="wohnung_name"> </li>
+        </ul>
+
+        <!-- Ich denke es wäre cool, könnte man bereits hier zu den 5 verschiedenen Ferienwohnungen springen. Dabei 
              aber immer auf dieser Seite bleiben. Was Bruder?-->
 
-        </nav>
+    </nav>
+
+        <div class="left_container">
+            <h2>Wichtige Informationen zur ausgewählten Ferienwohnung</h2>
+            <p>2 Gäste (Kleinkinder nicht inbegriffen)</p>
+            <p>Min. 2 Nächte</p>
+            <p>1 Schlafzimmer, 1 Bett, 1 Badezimmer </p>
+           <p>Diese Wohnung befindet sich im Herzen von München und 5 Minuten zu Fuß zum Oktoberfest für deinen München-Besuch. Die Wohnung wurde frisch renoviert und es gibt nur einige grundlegende Möbel als Couch, Schreibtisch, Küche, Badezimmer, Bett und Balkon.</p>
+           <p><h3> Angaben zum Vermieter:</h3></p>
+           <p>Leon</p>
+           <p>Lebt in München, Deutschland</p>
+           <p>Antwortrate: 80%, antwortet innerhalb eines Tages</p>
+           <p><img src="https://a0.muscache.com/im/pictures/user/User-544534031/original/f88cb13a-6e4e-455c-9cd8-002259afe86e.jpeg?im_w=240"> </p>
+           
 
 
-        <h1>
-            Suchst du Haus, ich hab Haus für dich... Hab auch Frau für dich. Gleich hier. Du suchst Frau? Nee digga eigentlich nicht
-        </h1>
 
-        <section>
+        </div>
 
-            <!-- <iframe
-                width="600"
-                height="450"
-                style="border:0"
-                loading="lazy"
-                allowfullscreen
-                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Kiel,Deutschland">
-            </iframe> -->
-
-        </section>
+        <div>
+            
+         <img style="width: 500px; height: 400px"
+         src="https://a0.muscache.com/im/pictures/miso/Hosting-1015778485599549732/original/0b5c5aab-dbd5-48cf-acc2-23abe606385a.png?im_w=1440"/>
 
 
-        <footer>
+        </div> 
+    
 
-        </footer>
 
-    </body>
+    
+
+
+    
+    
+
+   
+
+    <!-- Kann man hier (und in der css "wohnung_1.css" irgendwie so schreiben, dass z.B. Infos vom Vermieter Links angezeigt werden?) -->
+
+    <section class="section_wohnung_1" id="wohnung_1"> 
+
+     
+
+
+
+
+
+
+    </section>
+    
+
+    
+
+
+    
+
+    
+
+
+
+
+
+    <footer>
+
+    </footer>
+
+</body>
 
 </html>

@@ -1,13 +1,11 @@
-h1 
-{
+h1 {
     color: black;
     text-align: left;
     font-size: 40px;
     font-weight: bold;
 }
 
-body 
-{
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     /* Ermöglicht die Verwendung für eine flexibles Layout im Body bereich */
@@ -23,11 +21,13 @@ body
     padding: 0;
 
     background-color: #F0FFFF;
+
 }
 
 
-button 
-{
+
+
+button {
     margin-top: 12px;
     padding: 0.6em 1.5em;
     background-color: cornflowerblue;
@@ -41,8 +41,7 @@ button
     min-width: 400px;
 }
 
-section.section_titel 
-{
+section.section_titel {
     /* background-color: rgb(237, 216, 246); */
 
     /* 20 Pixel Abstand zur Oberen Kante der Website */
@@ -58,8 +57,7 @@ section.section_titel
     padding-right: 15%;
 }
 
-section.section_ferienwohnungen 
-{
+section.section_ferienwohnungen {
     background-color: paleturquoise;
 
     /* Jede Ferienwohnung in einen Rahmen packen. Und bei dem Rahmen 
@@ -100,8 +98,7 @@ section.section_ferienwohnungen
     */
 }
 
-footer
-{
+footer {
     /* Außenabstände von diesem Element zu seinen Nachbarelementen definieren. */
     margin-top: 25px;
     margin-bottom: 15px;
@@ -113,7 +110,15 @@ footer
 
 
 /* Eigenschaften beim Überfahren mit der Maus */
-button:hover 
-{
+button:hover {
     background-color: #FF0000;
 }
+
+#zimmer_1 {
+
+
+
+
+
+}
+
