@@ -1,0 +1,58 @@
+.left_container 
+{
+    /* Breite des Textblocks, anpassbar */
+    width: 40%;
+
+    /* Text linksbündig */
+    align-items: center;
+
+    /* Abstand vom linken Rand */
+    margin-left: 20px;
+
+}
+
+body 
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    /* Ermöglicht die Verwendung für eine flexibles Layout im Body bereich */
+    display: flex;
+
+    /* Spezifiziert ein Collum Layout. Andernfalls ist flow layout (aus Java) voreingestellt. */
+    flex-direction: column;
+
+    /* Zentriert alles in rechts der Seite. Mitt wäre auch Ok, würde sich mehr an die Haupseite halten. */
+    align-items: left;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #F0FFFF;
+}
+
+.ausstatung_1, th,td,tr 
+{
+    border: 1px solid, cornflowerblue;
+    align-content: right;
+}
+
+.rezeption_1 
+{
+
+}
+
+  
+
+/* Wie kann ich auf der Detailseite die Elemente nach links verschieben, da sich das "globale body" interferieren (danke Umut) mit dem left_container  */
+/* Hat sich das erledigt? */
+
+/* .wohnung_1_bilder {
+
+    width: 40%;
+    display: flexbox; 
+    align-items: center;
+    margin-left: 20px;
+
+
+
+} */
