@@ -5,6 +5,7 @@ nav
     height: 90px;
 
     background-color: rgb(58, 158, 216);
+    
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 144);
 
     /* Die Nav Bar einrücken. Es entsteht ein kleiner Abstand zu allen Seiten. Das finden wir schön */

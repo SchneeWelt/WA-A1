@@ -2,13 +2,25 @@
 {
     /* Breite des Textblocks, anpassbar */
     width: 40%;
+/* Die Breite passt man so nicht an. Das machst du über padding. Du bläst das Element also künstlich auf. Dadurch, 
+dass du nur die Grenzen erweiterst, der Text aber gleich groß bleibt ist das resultat das, dass der Text mehr von den
+Rändern weg rückt. */
+
 
     /* Text linksbündig */
     align-items: center;
 
     /* Abstand vom linken Rand */
     margin-left: 20px;
+}
 
+section
+{
+    /* "Layout Manager" einstellen. Jede Section auf jeder Detailseite soll 
+    so formatiert werden. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body 
@@ -28,6 +40,13 @@ body
     padding: 0;
 
     background-color: #F0FFFF;
+}
+
+#info_text
+{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .ausstatung_1, th,td,tr 

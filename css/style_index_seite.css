@@ -99,18 +99,6 @@ section.section_ferienwohnungen
     */
 }
 
-footer 
-{
-    /* Außenabstände von diesem Element zu seinen Nachbarelementen definieren. */
-    margin-top: 25px;
-    margin-bottom: 15px;
-
-    /* Elemente in Footer aufblasen. So benötigen Sie mehr Platz als sie eigentlich bräuchten. Das entzerrt die Website  */
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
 /* Eigenschaften beim Überfahren mit der Maus */
 button:hover
 {
