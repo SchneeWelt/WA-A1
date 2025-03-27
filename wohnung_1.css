@@ -14,9 +14,16 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 }
 
-table, th, td {
+.ausstatung_1, th,td,tr {
     border: 1px solid, cornflowerblue;
+    align-content: right;
   }
+
+  .rezeption_1 {
+   
+  }
+
+  
 
 /* Wie kann ich auf der Detailseite die Elemente nach links verschieben, da sich das "globale body" interferieren (danke Umut) mit dem left_container  */
 
