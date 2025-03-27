@@ -4,18 +4,13 @@
 <head>
     <title>Ferienwohnungen zu vermieten</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style_index.css">
-    <link rel="stylesheet" href="nav_settings.css" />
+    <link rel="stylesheet" href="./css/style_index.css">
+    <link rel="stylesheet" href="./css/nav_settings.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cache-control" content="no-cache">
 </head>
 
 <body>
-
-    <!-- JS Scripte Einbinden -->
-    <script type="text/javascript" src="./js/button_notification.js"></script>
-
-
     <!-- Wir brauchen einen Header. Das ist Teil der Anforderung -->
     <header>
 
@@ -49,9 +44,8 @@
     <section class="section_ferienwohnungen" id="zimmer_1">
 
 
-        <p>
+        <!-- Leute, der H Tag implementiert bereits den p tag. Ihr braucht den h tag also nicht ein einen p tag einzusetzen -->
         <h2>Stadtwohnung Hauptbahnhof</h2>
-        </p>
 
         <p>
             <strong>Typ: </strong> Apartment
@@ -74,7 +68,8 @@
         </p>
 
         <p>
-            <img style="max-width: 500px; max-height: 400px;"
+            <img 
+                style="max-width: 400px; max-height: 400px;"
                 src="https://a0.muscache.com/im/pictures/miso/Hosting-1015778485599549732/original/918dffb3-c9fb-45fe-b12c-073267f5d285.png?im_w=1200"
                 alt="" />
         </p>
@@ -121,8 +116,10 @@
         </p>
 
         <p>
-            <img style="width: 500px; max-height: 400px"
-                src="https://a0.muscache.com/im/pictures/miso/Hosting-1091988890706945075/original/8d8041de-8507-4af0-9109-041f982ddf5c.jpeg?im_w=1440" />
+            <img
+                style="width: 400px; max-height: 400px"
+                src="https://a0.muscache.com/im/pictures/miso/Hosting-1091988890706945075/original/8d8041de-8507-4af0-9109-041f982ddf5c.jpeg?im_w=1440" 
+            />
 
         </p>
 
@@ -259,13 +256,15 @@
     <footer>
         Copyright HomeDirekt 2025. Alle Rechte vorbehalten.
 
-        <!-- Lol XD -->
         <a href=" https://www.youtube.com/watch?v=xvFZjo5PgG0">
             <b>Datenschutzerklärung</b>
         </a>
 
 
     </footer>
-</body>
 
+    <!-- JS Scripte Einbinden. Sollte immer ganz ans Ende, damit sichergestellt ist, dass die Seite bereits vollständig geladen ist. -->
+    <script type="text/javascript" src="./js/button_notification.js"></script>
+
+</body>
 </html>
