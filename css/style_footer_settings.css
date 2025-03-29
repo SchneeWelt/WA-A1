@@ -1,35 +1,31 @@
 footer 
 {
-    width: calc(100% - 20px);
+    /* Die Breite von dem Element so verändern, dass das gewünschte Layout eingehalten wird. */
+    width: calc(100% - 30px);
+
+    /* Das Objekt ist zentriert auf dem Bildschirm platziert. Es erstreckt sich also in beide
+    Richtungen gleich weit. Aus diesem Grund reicht es aus die Breite des Elemetns zu verstellen.
+    Es wird dann ein gleicher Abstand zu beiden Seiten realisiert. */
 
     /* Außenabstände von diesem Element zu seinen Nachbarelementen definieren. */
-    margin-top: 25px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10pxS;
+    margin-top: 40px;
+    margin-bottom: 20px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* Dieses Element aufblasen. */
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-     /* "Layout Manager" einstellen */
-     display: flex;
-     flex-direction: column;
-     align-items: center;   
+    /* "Layout Manager" einstellen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 
-    /* Farbdesign */
-        background-color: rgb(58, 158, 216);
+    /* Farb- und Textdesign */
+    background-color: rgb(58, 158, 216);
 
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 24px;
-        color:#FF0000;
-
-        /* Abstand von Element zu Nachbarelementen */
-        margin-top: 40px;
-        margin-bottom: 20px;
-
-        /* Dieses Element aufblasen. */
-        padding-top: 20px;
-        padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#FF0000;
 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 144);
 }
