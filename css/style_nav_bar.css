@@ -1,18 +1,14 @@
 nav
 {
-    /* Weil Abstand von 10px zu allen Seiten (margin: 10px), Objektbreite um 20 px veringern */
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
     height: 90px;
 
     background-color: rgb(58, 158, 216);
     
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 144);
 
-    /* Die Nav Bar einrücken. Es entsteht ein kleiner Abstand zu allen Seiten. Das finden wir schön */
-    margin: 10px;
+    margin-top: 10px;
 
-    /* Ermöglicht das verschieben des Elements von seiner Standartposition.
-    Ich glaube wir verschieben das Element allerdings gar nicht... */
     position: relative;
 }
 

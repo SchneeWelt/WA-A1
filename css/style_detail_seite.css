@@ -1,15 +1,5 @@
-/* .left_container  */
-/* { */
-    /* Breite des Textblocks, anpassen */
-    /* width: 40%; */
-
-    /* Text linksbündig */
-    /* align-items: center; */
-
-    /* Abstand vom linken Rand */
-    /* margin-left: 20px; */
-/* } */
-
+/* Mit dier Klasse gekennzeichnete Elemte sollen Elemente sein, die Informationen 
+über die FeWo mitteilen. */
 .info_text
 {
     width: 40%;
@@ -36,7 +26,7 @@ body
     /* Keine Linien zw. Spalten u. Zeilen*/
     border-collapse: collapse;
     align-self: left;
-    margin: 20px;
+    /* margin: 20px; */
     background-color: rgb(255, 254, 254);
     text-align: left;
 }

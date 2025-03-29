@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style_detail_seite.css">
     <link rel="stylesheet" href="./css/style_nav_bar.css" />
     <link rel="stylesheet" href="./css/style_footer_settings.css">
+    <link rel="stylesheet" href="./css/style_grid_settings.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cache-control" content="no-cache">
 </head>
@@ -19,96 +20,99 @@
         </ul>
     </nav>
    
-    <section class="info_text"> 
-        <h2>Wichtige Informationen zur ausgewählten Ferienwohnung</h2>
-        <p>2 Gäste (Kleinkinder nicht inbegriffen)</p>
-        <p>Min. 2 Nächte</p>
-        <p>1 Schlafzimmer, 1 Bett, 1 Badezimmer </p>
-        <p>Diese Wohnung befindet sich im Herzen von München und 5 Minuten zu Fuß zum Oktoberfest für deinen
-            München-Besuch. Die Wohnung wurde frisch renoviert und es gibt nur einige grundlegende Möbel als Couch,
-            Schreibtisch, Küche, Badezimmer, Bett und Balkon.</p>
-        
-        <h3> Angaben zum Vermieter:</h3>
+    <section class="grid_layout_container">
+        <section class="grid_item item_wichtige_infos"> 
+            <h2>Wichtige Informationen zur ausgewählten Ferienwohnung</h2>
+            <p>2 Gäste (Kleinkinder nicht inbegriffen)</p>
+            <p>Min. 2 Nächte</p>
+            <p>1 Schlafzimmer, 1 Bett, 1 Badezimmer </p>
+            <p>Diese Wohnung befindet sich im Herzen von München und 5 Minuten zu Fuß zum Oktoberfest für deinen
+                München-Besuch. Die Wohnung wurde frisch renoviert und es gibt nur einige grundlegende Möbel als Couch,
+                Schreibtisch, Küche, Badezimmer, Bett und Balkon.</p>
+            
+        </section>
 
-        <p>Leon</p>
-        <p>Lebt in München, Deutschland</p>
-        <p>Antwortrate: 80%, antwortet innerhalb eines Tages</p>
-        <p>
-            <img
-                src="https://a0.muscache.com/im/pictures/user/User-544534031/original/f88cb13a-6e4e-455c-9cd8-002259afe86e.jpeg?im_w=240">
-        </p>
+        <section class="grid_item item_vermieter"> 
+
+            <h2> Angaben zum Vermieter:</h2>
+
+            <p>Leon</p>
+            <p>Lebt in München, Deutschland</p>
+            <p>Antwortrate: 80%, antwortet innerhalb eines Tages</p>
+            <p>
+                <img
+                    src="https://a0.muscache.com/im/pictures/user/User-544534031/original/f88cb13a-6e4e-455c-9cd8-002259afe86e.jpeg?im_w=240">
+            </p>
+        </section>
+
+        <section class="grid_item tabelle_ausstattung item_ausstattung">                
+            <table>
+                <caption>
+                    <h3>Ausstattungsmerkmale</h3>
+                <thead>
+                    <tr>
+                        <th> Badezimmer </th>
+                        <th> Schlafzimmer und Wäsche </th>
+                        <th> Unterhaltung </th>
+                        <th> Heizung und Klimaanlage </th>
+                        <th> Sicheres Zuhause </th>
+                        <th>Internet und Büro </th>
+                        <th>Küche und Esszimmer </th>
+                        <th>Services </th>
+                <tbody>
+                    <tr>
+                        <td>Badewanne</td>
+                        <td rowspan="2.5">Waschmaschine</td>
+                        <td rowspan="5">Fernseher</td>
+                        <td rowspan="5">Zentralheizung</td>
+                        <td rowspan="2.5"> Rauchmelder</td>
+                        <td rowspan="2.5">WLAN</td>
+                        <td> Küche </td>
+                        <td rowspan="5">Haustiere erlaubt</td>
+                    </tr>
+                    <tr>
+                        <td>Föhn</td>
+                        <td> Kühlschrank</td>
+                    </tr>
+
+                    <tr>
+                        <td> Shampoo</td>
+                        <td rowspan="3">Grundaustattung</td>
+                        <td rowspan="3">Kohlenmonoxidmeter</td>
+                        <td rowspan="3"> Arbeitsplatz</td>
+                        <td> Grundaustattung zum Kochen</td>
+
+                    </tr>
+
+                    <tr>
+                        <td> Seife</td>
+                        <td rowspan="2"> Geschirr und Besteck</td>
+                    </tr>
+
+                    <tr>
+                        <td> Warmwasser </td>
+                    </tr>
+                </tbody>
+                </tr>
+                </thead>
+                </caption>
+            </table>
+        </section>
+
+        <section class="grid_item item_bewertung_und_karte">
+            <p> "...alles hat gut funktioniert und wir haben uns wohl gefühlt!"</p> 
+            <p>-Anna, Februar 2025</p>
+        </section>
+
+        <section>
+            <iframe 
+                width="425" 
+                height="350" 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=11.540759503841402%2C48.137019066963504%2C11.54430001974106%2C48.138613911025864&amp;layer=mapnik" style="border: 1px solid black">
+            </iframe>
+        </section>
     </section>
 
-    <section class="tabelle_ausstattung">                
-        <table>
-            <caption>
-                <h3>Ausstattungsmerkmale</h3>
-            <thead>
-                <tr>
-                    <th> Badezimmer </th>
-                    <th> Schlafzimmer und Wäsche </th>
-                    <th> Unterhaltung </th>
-                    <th> Heizung und Klimaanlage </th>
-                    <th> Sicheres Zuhause </th>
-                    <th>Internet und Büro </th>
-                    <th>Küche und Esszimmer </th>
-                    <th>Services </th>
-            <tbody>
-                <tr>
-                    <td>Badewanne</td>
-                    <td rowspan="2.5">Waschmaschine</td>
-                    <td rowspan="5">Fernseher</td>
-                    <td rowspan="5">Zentralheizung</td>
-                    <td rowspan="2.5"> Rauchmelder</td>
-                    <td rowspan="2.5">WLAN</td>
-                    <td> Küche </td>
-                    <td rowspan="5">Haustiere erlaubt</td>
-                </tr>
-                <tr>
-                    <td>Föhn</td>
-                    <td> Kühlschrank</td>
-                </tr>
-
-                <tr>
-                    <td> Shampoo</td>
-                    <td rowspan="3">Grundaustattung</td>
-                    <td rowspan="3">Kohlenmonoxidmeter</td>
-                    <td rowspan="3"> Arbeitsplatz</td>
-                    <td> Grundaustattung zum Kochen</td>
-
-                </tr>
-
-                <tr>
-                    <td> Seife</td>
-                    <td rowspan="2"> Geschirr und Besteck</td>
-                </tr>
-
-                <tr>
-                    <td> Warmwasser </td>
-                </tr>
-            </tbody>
-            </tr>
-            </thead>
-            </caption>
-        </table>
-    </section>
-
-    <!-- Kann man hier (und in der css "wohnung_1.css" irgendwie so schreiben, dass z.B. Infos vom Vermieter Links angezeigt werden?) -->
-    <!-- <section class="section_wohnung_1" id="wohnung_1">
-    </section> -->
-
-    <section class="info_text">
-        <p> "...alles hat gut funktioniert und wir haben uns wohl gefühlt!"</p> 
-        <p>-Anna, Februar 2025</p>
-    </section>
-
-    <section>
-        <iframe 
-            width="425" 
-            height="350" 
-            src="https://www.openstreetmap.org/export/embed.html?bbox=11.540759503841402%2C48.137019066963504%2C11.54430001974106%2C48.138613911025864&amp;layer=mapnik" style="border: 1px solid black">
-        </iframe>
-    </section>
 
     <footer>
         Copyright HomeDirekt 2025. Alle Rechte vorbehalten.
