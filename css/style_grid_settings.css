@@ -48,3 +48,9 @@ sind ebenfalls section elemente. */
     grid-row: 2;
     grid-column: 2;
 }
+
+.item_kalender {
+    grid-row: 3;
+    grid-column: 1;
+
+}
