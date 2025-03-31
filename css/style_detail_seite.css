@@ -54,16 +54,16 @@ td
 
 .cal_body {
 background: radial-gradient(#f7f7f7, #dce0e1);
-height: 100vh;
 overflow: hidden;
-margin: 0px;
-padding: 0px;
+margin: 20x;
+padding: 20px;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .calenderbox{
+align-self: center;
 width: 350px;
-height: 450px;
+height: 30px;
 transform: translate(-50%,-50%);
 }
 
@@ -104,6 +104,7 @@ text-align: center;
 }
 
 .n {
+
 float: left;
 width: 14.28%;
 color: #444343;
@@ -118,7 +119,13 @@ font-weight: bold;
     border-radius: 5px;
 }
 
-.n-hover {
+.n:active {
+   
+    background-color: #2196f3;
+   
+}
+
+.n:hover {
 
     color: #2196f3;
     cursor: pointer;
