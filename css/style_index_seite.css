@@ -106,15 +106,25 @@ button:hover
 }
 
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) 
+{
+    /* Der Komplette website inhalt der css datei muss hier rein. 
+    Danach muss der gasamte inhalt auch nochmal in den tag hierdrunter. Aber
+    eben für eine andere bildschirm größe */
+
 
 }
 
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) 
+{
+
+
+
 
 }
 
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) 
+{
 
 }
