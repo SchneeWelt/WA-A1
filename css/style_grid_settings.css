@@ -1,56 +1,70 @@
-/* Mit dieser Klasse gekennzeichnete Elemente sollen solche sein, deren Kindelemente in einem Grid Layout
-aufgenommen werden sollen. Diese Klasse wird grundsätlich an section elemente übergeben und deren kindelemente
-sind ebenfalls section elemente. */
-.grid_layout_container
+
+
+/* @media only screen and (max-width: 1080px) 
 {
-    display: grid;
 
-    /* Repeat schreibt das übergebene mehrfach hin. Der erste Parameter gibt an, wie häufig und der zweite Paramter gibt an, 
-    was hingeschrieben wird. Hier wird also 2 Mal infolge 1 fraction hingeschrieben. */
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+} */
 
-    gap: 5px;
-
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-/* Gibt allgemeine an, wie ein Item des Grids formatiert werdens soll. */
-.grid_item
+/* Wenn der nicht greif, dann greift das Layout der style_detail_seite.css */
+@media only screen and (min-width: 1081px) and (max-width: 2560px) 
 {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
+    /* Mit dieser Klasse gekennzeichnete Elemente sollen solche sein, deren Kindelemente in einem Grid Layout
+    aufgenommen werden sollen. Diese Klasse wird grundsätlich an section elemente übergeben und deren kindelemente
+    sind ebenfalls section elemente. */
+    .grid_layout_container
+    {
+        display: grid;
+
+        /* Repeat schreibt das übergebene mehrfach hin. Der erste Parameter gibt an, wie häufig und der zweite Paramter gibt an, 
+        was hingeschrieben wird. Hier wird also 2 Mal infolge 1 fraction hingeschrieben. */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        gap: 5px;
+
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* Gibt allgemeine an, wie ein Item des Grids formatiert werdens soll. */
+    .grid_item
+    {
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .item_vermieter
+    {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .item_wichtige_infos
+    {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .item_ausstattung
+    {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .item_bewertung_und_karte
+    {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .item_kalender {
+        grid-row: 3;
+        grid-column: 1;
+
+    }
 }
 
-.item_vermieter
-{
-    grid-row: 2;
-    grid-column: 1;
-}
 
-.item_wichtige_infos
-{
-    grid-row: 1;
-    grid-column: 1;
-}
 
-.item_ausstattung
-{
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.item_bewertung_und_karte
-{
-    grid-row: 2;
-    grid-column: 2;
-}
-
-.item_kalender {
-    grid-row: 3;
-    grid-column: 1;
-
-}

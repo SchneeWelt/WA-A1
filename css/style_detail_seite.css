@@ -14,12 +14,11 @@ body
     /* "Layout Manager" einstellen */
     display: flex;
     flex-direction: column;
-    align-items: center;   
-
-    margin: 0;
 
     background-color: #F0FFFF;
 }
+
+/* Layout Daten für die Tabelle */
 
 .tabelle_ausstattung, th,td,tr 
 {
